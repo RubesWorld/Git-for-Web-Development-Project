@@ -2,7 +2,7 @@ MVP: link goes here
 
 Questions: 
 1. What is Semantic HTML? 
-
+HTML that gives meaning to your content.
 2. What is HTML used for? 
 
 
