@@ -30,18 +30,48 @@ any element can have an id
 once
    
 10. What is a class? 
-a class is a 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
-    15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
+it is a step further than id. You can name multiple things classes to reference in CSS.
+ 
+11. What elements can I add a class to? 
+all of them
+
+12. How many times can I use the same class on a page? 
+as many times as you want
+
+13. How do I get my link to open in a new tab?
+<a href="link" target="_blank" rel="noreferrer noopener">
+
+14. What is the alt attribute in the image tag used for? 
+the alt attribute is used for accessibility. If someone is blind, they will hear what is on the alt.
+
+15. How do I reference an id?
+in CSS, you reference an id with a hash. ex #title
+
+16. What is the difference between a section and a div
+section is semantic HTML while div is not. Section represents a section of a document while div does not.  
+Section should be used if the content is in fact, a section. 
+
+17. What is CSS used for? 
+CSS is used to design your HTML. 
+
+18. How to we select an element? Example - every h2 on the page
+elements are simply referenced. ex 
+h2{
+
+}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+a class can be attached to multiple elements. The same class can be seen multiple times. 
+an id can only be used once in a document. only one id selector can be given to an element.  
+
+20. How do we select classes in CSS?
+in CSS, you use a period (.) to select. 
+ex. .container{
+
+}
     21. How do we select a p element with a single class of “human””?
+
+    
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
