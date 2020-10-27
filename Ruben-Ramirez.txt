@@ -1,4 +1,4 @@
-MVP: link goes here
+MVP: https://codepen.io/rubesworld/pen/XWKMwxG?editors=1100
 
 Questions: 
 1. What is Semantic HTML? 
